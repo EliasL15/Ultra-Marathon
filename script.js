@@ -2,7 +2,7 @@
 
 // Toggle navigation menu on small screens
 document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.querySelector('nav ul');
+    const nav = document.querySelector('#nav-list');
     const menuToggle = document.createElement('div');
     menuToggle.className = 'menu-toggle';
     menuToggle.innerHTML = '☰';
@@ -36,3 +36,5 @@ galleryImages.forEach(image => {
         });
     });
 });
+
+
