@@ -57,14 +57,13 @@ header nav {
     margin-top: 10px;
 }
 
+/* Hide the navigation menu on screens smaller than 768px */
 @media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        text-align: center;
+    header nav {
+        display: none;
     }
 }
 
-/* Hero Section */
 /* Hero Section */
 #hero {
     position: relative;
@@ -149,7 +148,6 @@ header nav {
     font-weight: 300;
     text-align: center;
 }
-
 
 .cta {
     display: inline-block;
