@@ -97,9 +97,7 @@ header nav {
     height: 100%;
     z-index: -1; /* Ensure images stay behind the text */
     display: flex;
-    filter: blur(4px); /* Apply blur to background */
 }
-
 
 .slide {
     position: absolute;
