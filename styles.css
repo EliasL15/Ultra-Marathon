@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Existing Global Styles */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -8,16 +8,53 @@ body {
     color: #333;
 }
 
+#logo {
+    float: left; /* Aligns the logo to the left */
+    margin-right: 20px; /* Adds space between the logo and the heading */
+    margin-top: -17px;
+}
+
+#logo img {
+    width: 70px; /* Adjust the width to be smaller */
+    height: auto; /* Maintains aspect ratio */
+    margin-left: 0; /* Ensure no left margin is applied */
+}
+
 /* Container */
 .container {
-    width: 80%;
+    width: 80%; /* Reduced width of the container */
+    max-width: 1200px; /* Set a maximum width */
+    max-height: 30px;
     margin: auto;
     overflow: hidden;
+    padding: 10px; /* Add padding for spacing */
 }
 
 @media (max-width: 768px) {
     .container {
-        width: 95%;
+        width: 95%; /* Adjust width for smaller screens */
+        padding: 5px; /* Reduced padding for mobile */
+        max-height: 100px;
+        max-width: 380px;
+    }
+
+    /* Center logo and text on mobile */
+    #logo {
+        float: none; /* Disable floating */
+        margin: 0 auto; /* Center the logo */
+        text-align: center;
+    }
+
+    header h1 {
+        float: none; /* Disable floating */
+        text-align: center; /* Center the text */
+        margin: 20px 0; /* Add some margin for spacing */
+    }
+
+    header nav {
+        float: none; /* Disable floating */
+        text-align: center; /* Center the navigation text */
+        margin-top: 10px;
     }
 }
 
@@ -25,36 +62,38 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #ff6b6b 3px solid;
+    padding: 15px 0; /* Reduced padding */
+    min-height: 50px; /* Reduced minimum height */
+    border-bottom: #ff6b6b 2px solid; /* Reduced border thickness */
 }
 
 header a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px; /* Reduced font size */
 }
 
 header ul {
     padding: 0;
     list-style: none;
+    margin: 0; /* Ensure no margin is applied */
 }
 
 header ul li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 15px; /* Reduced padding */
 }
 
 header h1 {
     float: left;
-    font-size: 24px;
+    font-size: 20px; /* Reduced font size */
+    margin: 0; /* Remove margin for tighter spacing */
 }
 
 header nav {
     float: right;
-    margin-top: 10px;
+    margin-top: 0; /* Remove top margin */
 }
 
 /* Hide the navigation menu on screens smaller than 768px */
