@@ -114,7 +114,7 @@ header nav {
 /* This will apply to screens smaller than 768px (which is typically tablets and mobile devices) */
 @media (max-width: 768px) {
     #hero {
-        height: 300px; /* Adjust this value to your preference */
+        height: 220px; /* Adjust this value to your preference */
     }
 }
 
