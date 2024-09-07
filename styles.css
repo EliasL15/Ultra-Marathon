@@ -111,6 +111,12 @@ header nav {
     align-items: center;
     overflow: hidden;
 }
+/* This will apply to screens smaller than 768px (which is typically tablets and mobile devices) */
+@media (max-width: 768px) {
+    #hero {
+        height: 300px; /* Adjust this value to your preference */
+    }
+}
 
 /* Add an overlay */
 .hero-overlay {
