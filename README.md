@@ -6,7 +6,6 @@ This is the official website for the **Thermopylae Ultramarathon Cyprus**, an ul
 
 - [About the Event](#about-the-event)
 - [Donation Section](#donation-section)
-- [Contact Information](#contact-information)
 - [Technologies Used](#technologies-used)
 
 ## About the Event
@@ -23,9 +22,6 @@ The website features a **Donate** section where visitors can contribute to the c
 
 To donate, simply click the "Donate Now" button on the website or follow [this link](https://buy.stripe.com/6oEeXudx2cLX8PCdQQ).
 
-## Contact Information
-
-If you have any questions about the event or the website, you can reach us via email at: [adamidesconstantinos7@gmail.com](mailto:adamidesconstantinos7@gmail.com).
 
 ## Technologies Used
 
