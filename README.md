@@ -2,6 +2,8 @@
 
 This is the official website for the **Thermopylae Ultramarathon Cyprus**, an ultramarathon event designed to raise funds for charity, specifically for the Red Cross Society's Youth Section in Cyprus. The website provides information about the event, allows for donations, and includes contact details.
 
+Visit the website here: [Thermopylae Ultramarathon Cyprus](<https://ultramarathoncyprus.com/>).
+
 ## Table of Contents
 
 - [About the Event](#about-the-event)
